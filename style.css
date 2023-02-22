@@ -1,0 +1,39 @@
+body{
+    background-color:
+}
+.container{
+   
+}
+.super-button{
+    border-radius:10px;
+    padding: 10px 30px;
+    color: white;
+    background-color: black;
+}
+.card-footer{
+    border: none;
+    background-color: white;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px gray;
+    border-radius:15px;
+}
+.img-size img{
+    width: 600px;
+}
+.catagories h1{
+    text-align: center;
+}
+.laptop-area{
+    margin-bottom: 100px;
+}
+hr{
+    color: orange;
+}
+.cat1, .cat2, .cat3{
+    box-shadow: 5px 5px 10px gray;
+    padding:25px;
+    border-radius: 20px;
+    
+}
