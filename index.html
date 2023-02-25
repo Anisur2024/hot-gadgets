@@ -5,37 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- cdn css link  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- own css link  -->
     <link rel="stylesheet" href="style.css">
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Maven+Pro:wght@400;600&family=Source+Sans+Pro:wght@200;300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- navigation area  -->
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+            <a class="navbar-brand" href="#"><img class="img-fluid logo-style" src="images/logo.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-              <ul class="navbar-nav ">
+            <div class="collapse navbar-collapse d-flex justify-content-end li-style" id="navbarNav">
+              <ul class="navbar-nav">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#Home">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#Products">Products</a>
+                  <a class="nav-link" href="#products">Products</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#About-Us">About Us</a>
+                  <a class="nav-link" href="#about-us">About Us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#Contact-Us">Contact Us</a>
-                </li>
+                    <a class="nav-link" href="#contact-us">Contact Us</a>
+                  </li>
               </ul>
             </div>
           </nav>
     </div>
-
-    <div class="container">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <!-- carousel area -->
+    <div class="container mb-5">
+        <div id="carouselExampleIndicators" class="carousel slide bg-1" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -43,40 +50,40 @@
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <div class="row d-flex align-items-center justify-content-center">
+                <div class="row d-flex justify-content-center align-items-center ml-5">
                     <div class="col-md-7">
                         <h1>Mackbook Pro</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga possimus laborum odit ad enim repudiandae eligendi rem pariatur asperiores modi?</p>
-                        <button class="super-button">BUY NOW</button>
+                        <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit  lorejfh fhfhff > adipisicing elit. Sint magnam expedita magni, id saepe maiores sunt doloribus nobis fugiat quia.</p>
+                        <button class="super-button">Buy Now &#8594;</button>
                     </div>
                     <div class="col-md-5">
                         <img class="d-block w-100" src="images/banner-products/product-1.png" alt="First slide">
                     </div>
-                </div>
+               </div>
               </div>
               <div class="carousel-item">
-                <div class="row d-flex align-items-center justify-content-center">
+                <div class="row d-flex justify-content-center align-items-center ml-5">
                     <div class="col-md-7">
-                        <h1>Alexa Sound Box</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga possimus laborum odit ad enim repudiandae eligendi rem pariatur asperiores modi?</p>
-                        <button class="super-button">BUY NOW</button>
+                        <h1>Mackbook Pro</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit  lorejfh fhfhff > adipisicing elit. Sint magnam expedita magni, id saepe maiores sunt doloribus nobis fugiat quia.</p>
+                        <button class="super-button">Buy Now &#8594;</button>
                     </div>
                     <div class="col-md-5">
                         <img class="d-block w-100" src="images/banner-products/product-2.png" alt="Second slide">
                     </div>
-                </div>
+               </div>
               </div>
               <div class="carousel-item">
-                <div class="row d-flex align-items-center justify-content-center">
+                <div class="row d-flex justify-content-center align-items-center ml-5">
                     <div class="col-md-7">
-                        <h1>Samsung Blutooth MicroBox</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga possimus laborum odit ad enim repudiandae eligendi rem pariatur asperiores modi?</p>
-                        <button class="super-button">BUY NOW</button>
+                        <h1>Mackbook Pro</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit  lorejfh fhfhff > adipisicing elit. Sint magnam expedita magni, id saepe maiores sunt doloribus nobis fugiat quia.</p>
+                        <button class="super-button">Buy Now &#8594;</button>
                     </div>
                     <div class="col-md-5">
                         <img class="d-block w-100" src="images/banner-products/product-3.png" alt="Third slide">
                     </div>
-                </div>
+               </div>
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -89,52 +96,50 @@
             </a>
           </div>
     </div>
-
-    <div class="container">
-        <h1>Smartphone</h1>
+    <!-- smartphone area  -->
+    <div class="container py-5">
+        <h1 class="mb-4">Smartphone</h1>
         <div class="card-deck">
             <div class="card">
               <img class="card-img-top" src="images/phone/phone-1.png" alt="Card image cap">
-              <div class="card-body">
+              <div class="card-body text-center">
                 <h5 class="card-title">iPhone 11 Pro</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in this</p>
                 <h5>$999</h5>
-                <button class="super-button">BUY NOW</button>
+                <button class="super-button">Buy Now &#10140;;</button>
               </div>
             </div>
             <div class="card">
               <img class="card-img-top" src="images/phone/phone-2.png" alt="Card image cap">
-              <div class="card-body">
+              <div class="card-body text-center">
                 <h5 class="card-title">Samsung Galaxy Note10+</h5>
-                <p class="card-text">This card has supporting text below as a super duldf fhls hfflll f natural lead-in to additional content.</p>
-                <h5>$799</h5>
-                <button class="super-button">BUY NOW</button>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <h5>$999</h5>
+                <button class="super-button">Buy Now &#8594;</button>
               </div>
             </div>
             <div class="card">
               <img class="card-img-top" src="images/phone/phone-3.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Vivo Y991C</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer.</p>
-                <h5>$699</h5>
-                <button class="super-button">BUY NOW</button>
+              <div class="card-body text-center">
+                <h5 class="card-title"></h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This .</p>
+                <h5>$999</h5>
+                <button class="super-button">Buy Now &#8594;</button>
               </div>
             </div>
           </div>
     </div>
-
-    <div class="container laptop-area">
-        <h1>Laptop</h1>
+    <!-- laptop area  -->
+    <div class="container py-5">
+        <h1 class="mb-4">Laptop</h1>
         <div class="card-deck">
             <div class="card">
               <img class="card-img-top" src="images/laptop/product-1.png" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Asus VivoBook</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              </div>
-              <div class="card-footer">
-                <h5>$999</h5>
-                <button class="super-button">BUY NOW</button>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional </p>
+                 <h5>$999</h5>
+                <button class="super-button">Buy Now &#10140;</button>
               </div>
             </div>
             <div class="card">
@@ -142,47 +147,36 @@
               <div class="card-body">
                 <h5 class="card-title">Razer Blade 15</h5>
                 <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-              </div>
-              <div class="card-footer">
-                <h5>$2799</h5>
-                <button class="super-button">BUY NOW</button>
+                 <h5>$999</h5>
+                <button class="super-button">Buy Now &#10140;</button>
               </div>
             </div>
             <div class="card">
               <img class="card-img-top" src="images/laptop/product-3.png" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Xiaomi Mi Notebook Pro</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-              </div>
-              <div class="card-footer">
-                <h5>$999</h5>
-                <button class="super-button">BUY NOW</button>
+                <p class="card-text">This is a wider card with supporting text below as a natural l.</p>
+                 <h5>$999</h5>
+                <button class="super-button">Buy Now &#10140;</button>
               </div>
             </div>
           </div>
     </div>
-
-
-    <div class="container catagories">
-        <h1>Catagories</h1> <hr class="w-25">
+    <!-- catagories  -->
+    <div class="container catagories mb-5 mt-5">
+        <div class="text-center">
+            <h2>Catagories</h2>
+            <hr class="w-25 m-auto">
+        </div>
         <div class="row">
-            <div class="col-md-6 d-flex justify-content-center align-items-center">
-               <div class="cat1">
-                 <img src="images/Categories/bag.png" alt="">
-                 <h1>Bag</h1>
-              </div>
-              <div class="cat2">
-                <img src="images/Categories/perfume.png" alt="">
-                <h1>Beauty</h1>
-             </div>
-             <div class="cat3">
-                <img src="images/Categories/shoe.png" alt="">
-                <h1>Shoes</h1>
-             </div>
+            <div class="col-md-6">
+                <div class="cat-1 text-center"><img src="images/Categories/bag.png" alt=""><h2>Beauty</h2></div>
+                <div class="cat-2 text-center"><img src="images/Categories/perfume.png" alt=""><h2>Bag</h2></div>
+                <div class="cat-3 text-center"><img src="images/Categories/shoe.png" alt=""><h2>Shoes</h2>  </div>
             </div>
-            <div class="col-md-6 img-size">
+            <div class="col-md-6">
                 <div>
-                    <img src="images/Categories/pale-order.png" alt="">
+                    <img id="second-sec-img" src="images/Categories/pale-order.png" alt="">
                 </div>
             </div>
         </div>
@@ -195,10 +189,8 @@
 
 
 
-
-
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<!-- js link  -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
